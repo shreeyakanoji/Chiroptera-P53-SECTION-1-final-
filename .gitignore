@@ -1,0 +1,11 @@
+# Large real-data dependencies (see README for download instructions).
+# do not commit these directly as they are a large amt of of MB and will bloat the repo
+brain_stl/
+simnibs_data/
+*.zip
+
+__pycache__/
+*.pyc
+outputs/*.png
+outputs/*.html
+.DS_Store
