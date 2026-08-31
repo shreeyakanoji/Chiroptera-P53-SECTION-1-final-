@@ -1,0 +1,20 @@
+{
+  "selected_drive_settings": {
+    "voltage": 20,
+    "gain_db": 40,
+    "mean_amplitude": 3063.295413071158,
+    "noise_rms": 3.0,
+    "snr_db": 60.18135251774392,
+    "saturated": false
+  },
+  "skull_coefficient_calibration_realistic_range_1_3cm": {
+    "estimated_skull_coef_db_cm": 8.387752156195921,
+    "uncertainty_std": 0.34528540793915685,
+    "relative_error_pct": 2.9172043705020934,
+    "n_reference_measurements": 40,
+    "calibration_gain_used_db": 16
+  },
+  "skull_coefficient_calibration_wide_range_2_8cm": {
+    "error": "no single fixed gain keeps all reference distances in a valid dynamic range -- this distance span needs time-gain compensation (gain that increases with distance), not a fixed setting. Narrow the calibration distance range or implement TGC."
+  }
+}
