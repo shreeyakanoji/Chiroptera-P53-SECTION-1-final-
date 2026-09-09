@@ -1,0 +1,35 @@
+{
+  "calibration_step": {
+    "estimated_skull_coef_db_cm": 8.387752156195921,
+    "uncertainty_std": 0.34528540793915685,
+    "relative_error_pct": 2.9172043705020934,
+    "n_reference_measurements": 40,
+    "calibration_gain_used_db": 16
+  },
+  "reconstruction_with_real_calibration": {
+    "8": {
+      "dice": 0.0,
+      "iou": 0.0,
+      "recall": 0.0,
+      "precision": 0.0
+    },
+    "12": {
+      "dice": 0.16090250328689545,
+      "iou": 0.08771645021234187,
+      "recall": 0.6041666664548611,
+      "precision": 0.0937499999953125
+    },
+    "16": {
+      "dice": 0.07948384632191413,
+      "iou": 0.04308399933250496,
+      "recall": 0.20520833329858507,
+      "precision": 0.04971528471329458
+    },
+    "24": {
+      "dice": 0.10781136272934858,
+      "iou": 0.05718212997713494,
+      "recall": 0.5595935314106946,
+      "precision": 0.059927767226722085
+    }
+  }
+}
