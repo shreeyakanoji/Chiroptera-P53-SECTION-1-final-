@@ -10,7 +10,6 @@ import plotly.graph_objects as go
 import json
 
 
-
 GRID_SIZE = 220
 HEAD_RADIUS_CM = 8.5
 PIXEL_CM = (2 * HEAD_RADIUS_CM) / GRID_SIZE
